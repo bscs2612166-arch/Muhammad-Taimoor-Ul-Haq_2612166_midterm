@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    border-radius: 40px;
+}
+img{
+    border-radius: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 20px;
+}
+i{
+    color: white;
+    cursor: pointer;
+    
+}
+.child2{
+    flex: 1;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+
+}
+form{
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 30px;
+}
+.tick{
+    cursor: pointer;
+}
